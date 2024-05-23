@@ -1,0 +1,144 @@
+<!DOCTYPE html> <!-- é utilizada para indicar ao navegador qual versão do HTML está sendo utilizada -->
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Meu Portfólio">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfólio responsivo</title>
+</head>
+
+<body>
+    <!-- Cabeçalho da Página (header) -->
+    <header>
+
+        <!-- Div Conteudo do Cabeçalho -->
+        <div id="header" class="container_header">
+
+            <!-- Titulo do Cabeçalho -->
+            <div id="titulo" class="flex">
+
+                <!-- Hyperlink -->
+                <h1>The Oa</h1>
+            </div>
+
+            <!-- Conteudo do Menu da Página (header) -->
+            <div id="menu">
+
+                <!-- Menu da Página (nav) -->
+                <nav>
+                    <!-- Marcadores não ordenados -->
+                    <ul class="hover flex">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div id="validador">
+                <!-- Etiqueta do elemento input -->
+                <h2>Você gosta da Serie?</h2>
+                <div class="flex evenly">
+                    <input type="radio" name="cor" value="amarelo">
+                    <label for="amarelo">Sim</label><br>
+                    <input type="radio" name="cor" value="vermelho">
+                    <label for="vermelho">Não</label><br>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Principal da Página (main) -->
+    <main class="">
+        <!-- Seção Home -->
+        <section id="home" >
+                  
+           
+                <img class="logo borda"
+                    src="assets/img/8c54a580947e8a7209fa30c829c58943.jpg"
+                    alt="imagem do nome da série">
+            
+
+            <article id="sobre-texto borda" class="sobre-texto"> 
+                <h2>The Oa</h2><br>
+                <p>A série centra-se em Prairie Johnson (Brit Marling), uma jovem adotada e inicialmente cega, que ressurge depois de ter desaparecido por sete anos.Após seu retorno, Prairie se auto denomina como "OA", de "Original Angel" ("Anjo Original" em tradução livre), ela contém cicatrizes nas costas e a capacidade de enxergar.</p><br>
+                     
+                    <a target="_blank" href="video.html" alt="Meu github">Trailer</a>
+
+            </article>
+    
+            <!-- Imagem da Seção Home -->
+
+
+        </section>
+
+         <!-- Adicione os dados do seu Github-->
+         <section id="sobre" class="sobre_container "> <!-- Adicione aqui as CLASSES -->
+            
+
+            <article id="sobre-texto " class="sobre-texto"> <!-- Adicione aqui as CLASSES -->
+                <h1>Quem sou eu?</h1>
+                <p>
+                    Yasmine Lamark, 25 anos, estudante de Desenvolvimento FullsTack na Generation Brasil, disposta a desenvolver projetos, habilidades mentais, comportamentais e técnicas para aprimorar meu perfil profissional! Se quiser me conhecer ou colaborar em projetos, siga-me no githube.
+                </p>
+
+                <div id="sobre-github" class="sobre_github flex"> <!-- Adicione aqui as CLASSES -->
+                    <a class="btn" target="_blank" href="https://github.com/yasminelamark">Github</a>
+                   
+                    <!-- Adicione aqui as CLASSES -->
+                    <p>500 Seguidores</p>
+                    <p>36 Repositórios</p>
+                </div>
+
+            </article>
+
+            <img src="https://avatars.githubusercontent.com/u/164232712?s=400&u=cf2b13d808588c55a4d102ac32ba7242e8898262&v=4"
+                alt="Foto do Perfil do Github - ">
+        </section>
+
+
+        <!-- Seção Formulário de Contato e Redes Sociais -->
+        <section id="contato" class="borda">
+
+            <h2>Entre em contato comigo</h2>
+
+            <!-- Seção do Formulário-->
+            <form action="" method="POST">
+                <div>
+                    <input type="hidden" name="_next" value="">
+                    <input type="hidden" name="_captcha" value="false" >
+                </div>
+                <div>
+                    <label for="nome"><strong>Nome: </strong></label>
+                    <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+                </div>
+                <div>
+                    <label for="email"><strong>Email: </strong></label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                </div>
+                <div>
+                    <label for="subject"><strong>Assunto: </strong></label>
+                    <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+                </div>
+                <div>
+                    <label for="message"><strong>Mensagem: </strong></label>
+                    <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+           </form>
+        </section>
+    </main>
+
+    <!-- Rodapé da Página (footer) -->
+    <footer>
+        Feito com ❤ por Yasmine Lamark - 2024
+    </footer>
+</body>
+
+</html>

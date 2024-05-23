@@ -1,0 +1,153 @@
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bgcolor);
+    align-items: center;
+    padding: 10px;
+}
+
+ul li{
+margin-left: 10px;
+}
+
+.evenly{
+display: flex;
+justify-content: space-evenly;
+}
+
+#home_imagem{
+    width: 100%;
+}
+
+.sobre-texto{
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 20vh;
+}
+
+.logo{
+    display: flex;
+    width: 30%;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+main{
+    background-color: #5b0101;
+}
+ 
+main, section, label, h4 , p{
+    color: aliceblue;
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 30px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgcolor);
+    padding: 20px;
+}
+
+#home{
+  
+    /* padding: 120px; */
+   height: 100vh;    /* Unidade vh - Altura da Viewport - A medida vh é igual a 1/100 da altura da viewport.*/        
+   width: 100vw;    /* Unidade vw - Largura da Viewport - A medida vh é igual a 1/100 da largura da viewport.*/
+    display: flex;
+    justify-content: center;    /* alinhamento horizontal */
+    align-items: center;  
+}
+
+form input{
+    width:  380px;
+}
+
+article p{
+    padding-right: 40px;
+}
+
+.hover a:hover{
+    color: azure;
+}
+
+/* .borda{
+    border: 1px solid blanchedalmond;  
+} */
+
+
+ /* Adicione os dados do seu Github */
+
+.sobre_container {
+    max-width: 1120px;
+    margin: -24px auto; /* queremos fazer uma margin inversa, ou seja, que o sobre fique um pouco acima da tag anterior */
+    padding: 0 16px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;    /* alinhamento horizontal */
+    align-items: center;        /* alinhamento vertical */
+}
+
+.sobre_container img {
+    display: flex;
+    width: 35%;
+    border: 5px solid var(--purple-500);
+    border-radius: 50%;
+    padding-right: 30px;
+}
+
+.sobre_container h1 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.sobre_container p {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.sobre_github {
+    display: flex;
+    justify-content: space-evenly; /* os elementos terão um espaço entre eles, e entre as bordas do container */
+}
+
+.sobre_github button{
+    background-color: var(--bgcolor);
+}
+
+.btn {
+    align-items: center;
+    text-align: center;
+    padding: 10px 32px; /* Definindo espaçamento interno de 12px acima e abaixo e 32px nas laterais */
+    background-color: var(--bgcolor);
+    border: 1px;    /* Borda com 1px, com a linha solida e cor roxa */
+    border-radius: 10px;    /* Deixa a borda das tags arredondadas */
+    font-weight: 700;       /* Deixa a fonte em negrito*/
+}
+
+a.btn:hover{
+background-color: rgb(241, 230, 230);
+color: brown;
+}
+
+/* variável */
+
+:root {
+    --bgcolor: #005a5c;
+}
